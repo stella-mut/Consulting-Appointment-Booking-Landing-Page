@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pata Ajira HR Consulting — Book a Session</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <nav>
+    <div class="logo"><span class="logo-mark"></span>Pata Ajira HR Consulting</div>
+    <div class="nav-links">
+      <a href="#services">Services</a>
+      <a href="#availability">Availability</a>
+      <a href="#booking">Booking</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#faq">FAQs</a>
+    </div>
+    <div class="nav-cta">
+      <a href="#booking" class="btn btn-primary">Book a session</a>
+    </div>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-overlay"></div>
+  <div class="wrap">
+    <div class="hero-inner">
+      <span class="eyebrow">Human Resource Consulting</span>
+      <h1>HR guidance that fits <em>your</em> calendar, not the other way around.</h1>
+      <p class="hero-sub">Book a one-on-one session with a certified HR consultant — hiring, compliance, employee relations, and performance, sorted in a single conversation.</p>
+      <div class="hero-actions">
+        <a href="#booking" class="btn btn-primary">Check available times</a>
+        <a href="#services" class="btn btn-ghost">See services</a>
+      </div>
+      <div class="hero-note" style="margin-top:18px;">No account needed · Confirmation in your inbox instantly</div>
+    </div>
+
+    <div class="timeline-card">
+      <div class="timeline-head">
+        <h4>Today's Availability — Priya Nair, SHRM-SCP</h4>
+        <div class="live"><span class="live-dot"></span>Next opening in 40 min</div>
+      </div>
+      <div class="timeline-track" id="dayTimeline"></div>
+    </div>
+  </div>
+</section>
+
+<section id="services">
+  <div class="wrap">
+    <span class="eyebrow">Services</span>
+    <h2 class="section-label">Consulting built around the HR moments that can't wait</h2>
+    <p class="section-sub">Each session is one-on-one, scoped to your issue, and led by a consultant who specializes in it.</p>
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="service-num">01</div>
+        <h3>Talent Acquisition & Hiring</h3>
+        <p>Job descriptions, interview scorecards, and offer strategy that actually close candidates.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-num">02</div>
+        <h3>Employee Relations</h3>
+        <p>Conflict mediation, difficult conversations, and documentation that holds up.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-num">03</div>
+        <h3>Compliance & HR Audits</h3>
+        <p>A plain-language read on where your policies are exposed, and how to fix it.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-num">04</div>
+        <h3>Performance Management</h3>
+        <p>Review frameworks and PIP structures your managers will actually use.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-num">05</div>
+        <h3>Compensation & Benefits</h3>
+        <p>Benchmarking and structuring pay bands that keep you competitive and fair.</p>
+      </div>
+      <div class="service-card">
+        <div class="service-num">06</div>
+        <h3>Policy & Handbook Development</h3>
+        <p>Handbooks and policies written for your state, your size, and your risk tolerance.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="benefits-section">
+  <div class="wrap">
+    <span class="eyebrow">Why book</span>
+    <h2 class="section-label">Direct access, without the email back-and-forth</h2>
+    <div class="benefits-grid">
+      <div class="benefit-item">
+        
+        <h4>Real-time availability</h4>
+        <p>See exactly when each consultant is free — no waiting on a reply.</p>
+      </div>
+      <div class="benefit-item">
+        
+        <h4>Certified consultants</h4>
+        <p>Every session is led by a SHRM-CP or SHRM-SCP certified professional.</p>
+      </div>
+      <div class="benefit-item">
+  
+        <h4>Confidential by default</h4>
+        <p>Sessions are private and compliant with employment law standards.</p>
+      </div>
+      <div class="benefit-item">
+  
+        <h4>In-person or virtual</h4>
+        <p>Meet over video or at our office — your call, set during booking.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="availability">
+  <div class="wrap">
+    <span class="eyebrow">Availability</span>
+    <h2 class="section-label">This week's consultant schedule</h2>
+    <p class="section-sub">A quick look before you pick a time — full slots open up in the calendar below.</p>
+    <div class="consultant-grid">
+      <div class="consultant-card">
+        <div class="consultant-top">
+          <div class="avatar">PN</div>
+          <div><h4>Priya Nair</h4><span>Talent & Compliance</span></div>
+        </div>
+        <div class="week-row">
+          <div class="day-pill">Mon<div class="day-dot avail"></div></div>
+          <div class="day-pill">Tue<div class="day-dot"></div></div>
+          <div class="day-pill">Wed<div class="day-dot avail"></div></div>
+          <div class="day-pill">Thu<div class="day-dot avail"></div></div>
+          <div class="day-pill">Fri<div class="day-dot"></div></div>
+        </div>
+      </div>
+      <div class="consultant-card">
+        <div class="consultant-top">
+          <div class="avatar">DM</div>
+          <div><h4>Daniel Marsh</h4><span>Employee Relations</span></div>
+        </div>
+        <div class="week-row">
+          <div class="day-pill">Mon<div class="day-dot"></div></div>
+          <div class="day-pill">Tue<div class="day-dot avail"></div></div>
+          <div class="day-pill">Wed<div class="day-dot avail"></div></div>
+          <div class="day-pill">Thu<div class="day-dot"></div></div>
+          <div class="day-pill">Fri<div class="day-dot avail"></div></div>
+        </div>
+      </div>
+      <div class="consultant-card">
+        <div class="consultant-top">
+          <div class="avatar">RO</div>
+          <div><h4>Renee Okafor</h4><span>Comp & Performance</span></div>
+        </div>
+        <div class="week-row">
+          <div class="day-pill">Mon<div class="day-dot avail"></div></div>
+          <div class="day-pill">Tue<div class="day-dot avail"></div></div>
+          <div class="day-pill">Wed<div class="day-dot"></div></div>
+          <div class="day-pill">Thu<div class="day-dot avail"></div></div>
+          <div class="day-pill">Fri<div class="day-dot avail"></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="booking-section" id="booking">
+  <div class="wrap">
+    <span class="eyebrow">Booking calendar</span>
+    <h2 class="section-label">Pick a time, and it's done</h2>
+    <p class="section-sub">Select a date and slot, add your details, and you'll get a confirmation right away.</p>
+
+    <div class="booking-panel">
+      <div class="booking-cal">
+        <div class="cal-nav">
+          <button class="cal-arrow" id="prevMonth">‹</button>
+          <h4 id="calMonthLabel">July 2026</h4>
+          <button class="cal-arrow" id="nextMonth">›</button>
+        </div>
+        <div class="cal-grid" id="calGrid"></div>
+
+        <div class="slots-title">Available times</div>
+        <div class="slots-grid" id="slotsGrid"></div>
+      </div>
+
+      <div class="booking-form">
+        <form id="bookingForm">
+          <label for="fullName">Full name</label>
+          <input type="text" id="fullName" placeholder="Jordan Reyes" required>
+
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="jordan@company.com" required>
+
+          <label for="company">Company</label>
+          <input type="text" id="company" placeholder="Your company">
+
+          <label for="consultant">Consultant</label>
+          <select id="consultant">
+            <option>Priya Nair — Talent & Compliance</option>
+            <option>Daniel Marsh — Employee Relations</option>
+            <option>Renee Okafor — Comp & Performance</option>
+            <option>No preference</option>
+          </select>
+
+          <label for="notes">What would you like to cover?</label>
+          <textarea id="notes" placeholder="Briefly describe your HR question or issue"></textarea>
+
+          <button type="submit" class="btn btn-primary booking-submit">Confirm booking</button>
+          <div class="booking-confirm" id="bookingConfirm">You're booked. A calendar invite and confirmation are on their way to your inbox.</div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="testimonials">
+  <div class="wrap">
+    <span class="eyebrow">Testimonials</span>
+    <h2 class="section-label">What clients say after a session</h2>
+    <div class="testi-grid">
+      <div class="testi-card">
+        <div class="quote-mark">"</div>
+        <p class="quote">We resolved a policy gap in one session that would've taken weeks to figure out on our own. Booking took thirty seconds.</p>
+        <div class="testi-person">
+          <div class="testi-avatar">LT</div>
+          <div><strong>Lena Torres</strong><span>Operations Lead, Fintra Co.</span></div>
+        </div>
+      </div>
+      <div class="testi-card">
+        <div class="quote-mark">"</div>
+        <p class="quote">Daniel walked us through a difficult employee situation with a clarity our internal team didn't have. Worth every minute.</p>
+        <div class="testi-person">
+          <div class="testi-avatar">MK</div>
+          <div><strong>Marcus Kim</strong><span>Founder, Northfield Studio</span></div>
+        </div>
+      </div>
+      <div class="testi-card">
+        <div class="quote-mark">"</div>
+        <p class="quote">Seeing real-time availability instead of emailing back and forth made this the easiest professional service we've booked.</p>
+        <div class="testi-person">
+          <div class="testi-avatar">AS</div>
+          <div><strong>Amara Solis</strong><span>People Ops, Verdant Labs</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="wrap">
+    <span class="eyebrow">FAQs</span>
+    <h2 class="section-label">Before you book</h2>
+    <div class="faq-list" id="faqList">
+      <div class="faq-item open">
+        <button class="faq-q">Is my session confidential? <span class="faq-icon"></span></button>
+        <div class="faq-a"><div class="faq-a-inner">Yes. Every session is treated as confidential and handled in line with employment law standards — nothing is shared with your employer or team without your consent.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Can I book a virtual session instead of in-person? <span class="faq-icon"></span></button>
+        <div class="faq-a"><div class="faq-a-inner">Yes — during booking you can choose video or in-person, whichever works better for your schedule and location.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">What if I need to reschedule? <span class="faq-icon"></span></button>
+        <div class="faq-a"><div class="faq-a-inner">You can reschedule or cancel from your confirmation email up to 12 hours before your session, at no charge.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">How do I choose the right consultant? <span class="faq-icon"></span></button>
+        <div class="faq-a"><div class="faq-a-inner">Pick based on the specialty that matches your issue, or select "No preference" and we'll match you with the first available consultant.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Is there a fee to book?</button>
+        <div class="faq-a"><div class="faq-a-inner">The initial 30-minute session is free. Extended sessions and ongoing retainers are quoted after your first call.</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="logo">Pata Ajira HR Consulting</div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h5>Explore</h5>
+          <a href="#services">Services</a>
+          <a href="#availability">Availability</a>
+          <a href="#booking">Booking</a>
+        </div>
+        <div class="footer-col">
+          <h5>Company</h5>
+          <a href="#testimonials">Testimonials</a>
+          <a href="#faq">FAQs</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Pata Ajira HR Consulting</span>
+      <span>Nairobi · Remote sessions worldwide</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
