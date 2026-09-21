@@ -1,3 +1,3 @@
-# Pata Ajira Consulting — Appointment Booking Landing Page
+# Consulting Appointment Booking Landing Page
 
 
